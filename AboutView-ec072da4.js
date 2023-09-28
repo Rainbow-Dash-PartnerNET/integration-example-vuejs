@@ -1,1 +1,0 @@
-"use strict";Object.defineProperty(exports,Symbol.toStringTag,{value:"Module"});const e=require("./main-260f835a.js");const t={},o={class:"about"},n=e.createBaseVNode("h1",null,"This is an about page",-1),c=[n];function s(i,a){return e.openBlock(),e.createElementBlock("div",o,c)}const _=e._export_sfc(t,[["render",s]]);exports.default=_;
