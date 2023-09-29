@@ -2,7 +2,6 @@ import { fileURLToPath, URL } from 'node:url'
 
 import { defineConfig } from 'vite'
 import vue from '@vitejs/plugin-vue'
-// import path, { resolve } from 'path'
 
 // https://vitejs.dev/config/
 export default defineConfig({
@@ -20,13 +19,6 @@ export default defineConfig({
         chunkFileNames: `assets/[name].js`,
         assetFileNames: `assets/[name].[ext]`
       }
-    },
-    
-    // lib: {
-    //   entry: resolve(__dirname, 'src/main.ts'),
-    //   name: 'Integration Example VueJS',
-    //   fileName: 'integration-example-vuejs',
-    //   formats: ['es', 'umd'],
-    //   },
+    }
   }
 })
